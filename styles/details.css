@@ -1,24 +1,17 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .details {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .detail--column {
-    flex-basis: 24%;
-    margin: 0 2rem;
+    flex-basis: 32%;
+    margin: 0 1rem;
     border: 1px dotted goldenrod;
 }
 
 .details__cities {
-    flex-basis: 24%;
-    margin: 0 2rem;
+    flex-basis: 32%;
+    margin: 0 1rem;
     border: 1px dotted goldenrod;
 }
 
